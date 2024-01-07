@@ -1,4 +1,36 @@
-let contact = document.querySelectorAll('.conta');
+
+window.addEventListener('DOMContentLoaded',()=> {
+   
+
+
+
+    let progress = document.querySelectorAll('.myprog');
+    let progress2 = document.querySelectorAll('.progress2');
+    progress2.forEach((pro)=>{
+        let value = parseInt(pro.getAttribute('data-prog'))
+        let i = 0 ;
+        function increaseProgress(){
+            if (i <= value){
+                pro.textContent = `${i}%`
+                i++;
+                setTimeout(increaseProgress, 50);
+            }
+        }
+        increaseProgress();
+    })
+    progress.forEach((pro)=>{
+        let value = parseInt(pro.getAttribute('data-prog'))
+        let i = 0 ;
+        function increaseProgress(){
+            if (i <= value){
+                pro.style.width = `${i}%`
+                i++;
+                setTimeout(increaseProgress, 50);
+            }
+        }
+        increaseProgress();
+    })
+    let contact = document.querySelectorAll('.conta');
 
 contact.forEach((con)=>{
     if(con.getAttribute('href') !=='#'){
@@ -13,14 +45,13 @@ const sections = document.querySelectorAll('section');
 const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.5 
+    threshold: 0
 };
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         const sectionId = entry.target.getAttribute('id');
         const correspondingButton = document.querySelector(`[href="#${sectionId}"]`);
-        
         if (entry.isIntersecting) {
             correspondingButton.classList.add('circles-active');
         } else {
@@ -33,35 +64,4 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach((section) => {
   observer.observe(section);
 });
-
-let menu_buttons = document.querySelectorAll('.nav-buttons');
-
-
-window.addEventListener('DOMContentLoaded',()=> {
-    let progress = document.querySelectorAll('.myprog');
-    let progress2 = document.querySelectorAll('.progress2');
-    progress2.forEach((pro)=>{
-        let value = parseInt(pro.getAttribute('data-prog'))
-        let i = 0 ;
-        function increaseProgress(){
-            if (i <= value){
-                pro.textContent = `${i}%`
-                i++;
-                setInterval(increaseProgress, 100);
-            }
-        }
-        increaseProgress();
-    })
-    progress.forEach((pro)=>{
-        let value = parseInt(pro.getAttribute('data-prog'))
-        let i = 0 ;
-        function increaseProgress(){
-            if (i <= value){
-                pro.style.width = `${i}%`
-                i++;
-                setInterval(increaseProgress, 100);
-            }
-        }
-        increaseProgress();
-    })
 })
