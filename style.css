@@ -208,3 +208,9 @@ line-height: 123.6%;
 .myorder{
     cursor: pointer;
 }
+.br50{
+    border-radius: 30px;
+}
+.hover:hover{
+    background: var(--bg-);
+}

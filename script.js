@@ -39,7 +39,19 @@ let menu_buttons = document.querySelectorAll('.nav-buttons');
 
 window.addEventListener('DOMContentLoaded',()=> {
     let progress = document.querySelectorAll('.myprog');
-
+    let progress2 = document.querySelectorAll('.progress2');
+    progress2.forEach((pro)=>{
+        let value = parseInt(pro.getAttribute('data-prog'))
+        let i = 0 ;
+        function increaseProgress(){
+            if (i <= value){
+                pro.textContent = `${i}%`
+                i++;
+                setInterval(increaseProgress, 100);
+            }
+        }
+        increaseProgress();
+    })
     progress.forEach((pro)=>{
         let value = parseInt(pro.getAttribute('data-prog'))
         let i = 0 ;
