@@ -6,6 +6,7 @@
     <title>Ayoub</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="position-relative">
     <!DOCTYPE html>
@@ -300,7 +301,7 @@
             </div>
         </div>
     </section>
-    <section id="home" class="mlr" >
+    <section data-aos="fade-in"  id="home" class="mlr" >
       <div class="container">
         <div class="row w-100 bg d-flex position-relative justify-content-between pt-2">
           <div class="col-xxl-6 d-flex flex-column align-items-center">
@@ -314,7 +315,7 @@
                 <li><img src="asstes/deco/Rectangle 51.png" id="rec1" class="position-absolute"></li>
                 <li><img src="asstes/deco/Rectangle 52.png" id="rec2" class="position-absolute"></li>
               </ul>
-              <div class="my-auto  d-flex flex-column gap-3 px-5 z-2 align-items-sm-center text-sm-center">
+              <div  class="my-auto  d-flex flex-column gap-3 px-5 z-2 align-items-sm-center text-sm-center">
                 <p class="fs-48 text-capitalize  ">I’m Ayoub Bourhfella
                   <span class="text-my-primary">Front-end</span> Developer </p>
                 <p class="text-secon w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</p>
@@ -336,14 +337,14 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+          <div data-aos="fade-up" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
             <h2 class="h2 text-capitalize fw-bold">my services</h2>
             <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
           </div>
         </div>
         <div class="row mt-5">
           <div class="col-lg-4 mt-md-3">
-            <div class="bg d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
+            <div data-aos="zoom-in" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68" fill="none">
                 <path d="M63.2188 7.4375H4.78125C3.79531 7.43859 2.85007 7.83074 2.1529 8.5279C1.45574 9.22507 1.06359 10.1703 1.0625 11.1562V48.3438C1.06359 49.3297 1.45574 50.2749 2.1529 50.9721C2.85007 51.6693 3.79531 52.0614 4.78125 52.0625H26.0552L24.7802 55.25H19.125C18.8432 55.25 18.573 55.3619 18.3737 55.5612C18.1744 55.7605 18.0625 56.0307 18.0625 56.3125V58.4375H11.6875C11.4057 58.4375 11.1355 58.5494 10.9362 58.7487C10.7369 58.948 10.625 59.2182 10.625 59.5C10.625 59.7818 10.7369 60.052 10.9362 60.2513C11.1355 60.4506 11.4057 60.5625 11.6875 60.5625H56.3125C56.5943 60.5625 56.8645 60.4506 57.0638 60.2513C57.2631 60.052 57.375 59.7818 57.375 59.5C57.375 59.2182 57.2631 58.948 57.0638 58.7487C56.8645 58.5494 56.5943 58.4375 56.3125 58.4375H49.9375V56.3125C49.9375 56.0307 49.8256 55.7605 49.6263 55.5612C49.427 55.3619 49.1568 55.25 48.875 55.25H43.2198L41.9448 52.0625H63.2188C64.2047 52.0614 65.1499 51.6693 65.8471 50.9721C66.5443 50.2749 66.9364 49.3297 66.9375 48.3438V11.1562C66.9364 10.1703 66.5443 9.22507 65.8471 8.5279C65.1499 7.83074 64.2047 7.43859 63.2188 7.4375ZM47.8125 57.375V58.4375H20.1875V57.375H47.8125ZM27.0698 55.25L28.3448 52.0625H39.6552L40.9302 55.25H27.0698ZM64.8125 48.3438C64.8121 48.7663 64.6441 49.1715 64.3453 49.4703C64.0465 49.7691 63.6413 49.9371 63.2188 49.9375H4.78125C4.35867 49.9371 3.9535 49.7691 3.65469 49.4703C3.35588 49.1715 3.18785 48.7663 3.1875 48.3438V45.6875H64.8125V48.3438ZM64.8125 43.5625H3.1875V11.1562C3.18785 10.7337 3.35588 10.3285 3.65469 10.0297C3.9535 9.73088 4.35867 9.56285 4.78125 9.5625H63.2188C63.6413 9.56285 64.0465 9.73088 64.3453 10.0297C64.6441 10.3285 64.8121 10.7337 64.8125 11.1562V43.5625Z" fill="#FFB400"/>
                 <path d="M29.1671 34.888C29.2838 34.9646 29.4144 35.0174 29.5514 35.0435C29.6885 35.0696 29.8294 35.0684 29.966 35.04C30.1026 35.0117 30.2323 34.9567 30.3477 34.8782C30.4631 34.7997 30.5618 34.6992 30.6384 34.5826L39.0056 21.8326C39.1602 21.597 39.2149 21.3096 39.1577 21.0337C39.1005 20.7578 38.936 20.5159 38.7004 20.3613C38.4648 20.2066 38.1774 20.1519 37.9015 20.2092C37.6256 20.2664 37.3837 20.4309 37.2291 20.6665L28.8619 33.4165C28.7853 33.5331 28.7324 33.6637 28.7063 33.8008C28.6802 33.9379 28.6813 34.0788 28.7096 34.2155C28.738 34.3521 28.793 34.4819 28.8715 34.5973C28.9499 34.7127 29.0504 34.8115 29.1671 34.888Z" fill="#FFB400"/>
@@ -355,7 +356,7 @@
             </div>
           </div>
           <div class="col-lg-4 mt-md-3">
-            <div class="bg d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
+            <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68" fill="none">
                 <g clip-path="url(#clip0_2_6449)">
                   <path d="M31.6094 49.3384C31.0591 49.3384 30.6133 49.7844 30.6133 50.3345C30.6133 50.8846 31.0591 51.3306 31.6094 51.3306H36.3906C36.9409 51.3306 37.3867 50.8846 37.3867 50.3345C37.3867 49.7844 36.9409 49.3384 36.3906 49.3384H31.6094Z" fill="#FFB400"/>
@@ -377,7 +378,7 @@
             </div>
           </div>
           <div class="col-lg-4 mt-md-3">
-            <div class="bg d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
+            <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74" fill="none">
                 <g clip-path="url(#clip0_2_6360)">
                   <path d="M37.0002 0C29.0179 0 22.522 6.7533 22.522 15.0526V37C22.522 45.3009 29.0179 52.0526 37.0002 52.0526C44.9826 52.0526 51.4785 45.3009 51.4785 37V15.0526C51.4785 6.7533 44.9826 0 37.0002 0ZM37.0002 48.8352C31.3119 48.8352 26.6065 44.3743 25.8552 38.6087H48.1437C47.394 44.3759 42.6886 48.8352 37.0002 48.8352ZM48.2611 35.3913H25.7394V15.0526C25.7394 8.52609 30.7907 3.21739 37.0002 3.21739C43.2098 3.21739 48.2611 8.52609 48.2611 15.0526V35.3913Z" fill="#FFB400"/>
@@ -396,7 +397,7 @@
         </div>
         <div class="row mt-3">
           <div class="col-lg-4 mt-md-3">
-            <div class="bg d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
+            <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74" fill="none">
                 <path d="M32.375 38.1562H41.625V40.4688H32.375V38.1562Z" fill="#FFB400"/>
                 <path d="M35.8438 34.6875H38.1562V43.9375H35.8438V34.6875Z" fill="#FFB400"/>
@@ -428,14 +429,14 @@
             </div>
           </div>
           <div class="col-lg-4 mt-md-3">
-            <div class="bg d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
+            <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" x="0" y="0" viewBox="0 0 74 74" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M27.578 7.748h5.083a1 1 0 0 0 0-2h-5.083a1 1 0 0 0 0 2zM23.045 61.584h9.066a1 1 0 0 0 0-2h-9.066a1 1 0 0 0 0 2z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="M10.155 51.634a1 1 0 0 0 1-1V11.5H44v5.144a1 1 0 0 0 2 0l.004-10.664c0-2.19-1.79-3.98-3.987-3.98H13.135c-2.09 0-3.98 1.72-3.98 3.983v44.651a1 1 0 0 0 1 1zM42.015 4c1.057 0 1.986.865 1.986 1.983V9.5H11.155V5.98c0-1.09.894-1.98 1.983-1.98z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="M33.749 27.196a1 1 0 0 0 1.414-.007l4.18-4.218a1 1 0 0 0 0-1.407l-4.18-4.218a1 1 0 0 0-1.42 1.407l3.481 3.515-3.482 3.514a1 1 0 0 0 .007 1.414zM21.406 17.339a.998.998 0 0 0-1.414.007l-4.179 4.218a1 1 0 0 0 0 1.407l4.18 4.218a1 1 0 1 0 1.42-1.407l-3.481-3.514 3.481-3.515a1 1 0 0 0-.007-1.414zM29.19 14.513l-5.87 14.77a1 1 0 1 0 1.859.739l5.87-14.77a1 1 0 1 0-1.86-.739zM45.005 33.04c-2.93 0-5.31 2.38-5.31 5.31 0 2.958 2.412 5.31 5.31 5.31 2.886 0 5.3-2.348 5.3-5.31 0-2.93-2.38-5.31-5.3-5.31zm1 8.46v-3.81c0-.55-.45-1-1-1-.56 0-1 .45-1 1v3.82a3.314 3.314 0 0 1 1-6.47c1.82 0 3.3 1.49 3.3 3.31 0 1.48-.97 2.73-2.3 3.15z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="m57.955 35.19-2.46-.28c-.19-.58-.43-1.15-.72-1.7l1.44-2.04c.29-.39.24-.94-.1-1.28l-2.87-2.86a.996.996 0 0 0-1.33-.08l-1.93 1.55c-.55-.28-1.12-.51-1.71-.69l-.41-2.47a1 1 0 0 0-.99-.83h-4.05c-.51 0-.94.38-1 .89l-.27 2.47c-.59.19-1.15.43-1.69.71l-2.05-1.45a.988.988 0 0 0-1.28.11l-2.86 2.86c-.36.36-.39.93-.07 1.33l1.54 1.94c-.28.55-.51 1.12-.69 1.71l-2.46.41c-.48.09-.84.5-.84.99v4.05c0 .51.39.93.89.99l2.46.28c.19.59.44 1.16.72 1.7l-1.44 2.03c-.28.4-.24.94.11 1.29l2.86 2.86c.36.36.93.39 1.33.07l1.94-1.54c.55.27 1.11.5 1.7.68l.41 2.47a1 1 0 0 0 .99.84h.88v2.21h-33.85c-.55 0-1 .45-1 1v6.61a3.99 3.99 0 0 0 3.98 3.98h28.88c2.2 0 3.99-1.79 3.99-3.98V52.2h1.17c.51 0 .94-.38 1-.89l.28-2.47a11.4 11.4 0 0 0 1.69-.71l2.04 1.45c.4.28.94.23 1.29-.11l2.85-2.87c.36-.36.39-.93.07-1.32l-1.54-1.94c.28-.56.51-1.13.69-1.71l2.46-.42c.48-.08.84-.5.84-.98v-4.05c0-.51-.38-.94-.89-.99zm-13.95 26.83c0 1.09-.89 1.98-1.99 1.98h-28.88c-1.09 0-1.98-.89-1.98-1.98v-5.61h32.85v5.61zm12.84-22.64-2.26.38c-.4.07-.71.36-.81.76-.2.84-.53 1.65-.97 2.42-.21.35-.18.8.08 1.12l1.39 1.76-1.62 1.64-1.88-1.34a1 1 0 0 0-1.1-.03c-.73.45-1.53.79-2.38 1-.41.1-.71.45-.76.86l-.25 2.25h-2.32l-.38-2.27a.982.982 0 0 0-.75-.8c-.84-.21-1.65-.54-2.4-.98a.995.995 0 0 0-1.13.08l-1.77 1.4-1.63-1.63 1.32-1.85c.213-.301.25-.746.04-1.12-.45-.73-.8-1.54-1.02-2.4a.98.98 0 0 0-.85-.74l-2.24-.26v-2.3l2.26-.38c.4-.07.72-.37.81-.76.2-.85.53-1.66.98-2.4.21-.36.19-.81-.07-1.14l-1.41-1.77 1.63-1.63 1.87 1.33a1 1 0 0 0 1.1.04c.73-.45 1.54-.79 2.4-1.01.4-.1.69-.44.74-.85l.25-2.25h2.32l.38 2.26c.07.4.36.72.75.81.85.2 1.66.53 2.41.98.36.21.81.18 1.13-.08l1.76-1.41 1.63 1.64-1.32 1.86c-.21.297-.253.731-.04 1.11.46.75.8 1.56 1.01 2.39.1.4.44.7.86.75l2.24.25v2.31z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path></g></svg>
               <h3 class="fw-bold text-capitalize">Mobile dev</h3>
               <p class="text-secon text-capitalize">simple mobile applications</p>
             </div>
           </div>
           <div class="col-lg-4 mt-md-3">
-            <div class="bg myorder d-flex flex-column text-center align-items-center justify-content-center py-5 h-100 gap-3">
+            <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" class="bg shadow myorder d-flex flex-column text-center align-items-center justify-content-center py-5 h-100 gap-3">
               <a href="#contact" class=" text-decoration-none text-my-primary text-uppercase fs-2 ">Order Now
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20" fill="none">
                   <g clip-path="url(#clip0_2_649)">
@@ -456,14 +457,14 @@
     <section class="mlr" id="price">
       <div class="container">
         <div class="row mt-5">
-          <div class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
             <h2 class="h2 text-capitalize fw-bold">Price plans</h2>
             <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
           </div>
         </div>
         <div class="row mt-5">
           <div class="col-lg-4 ">
-            <div class="bg d-flex flex-column align-items-center mt-4 text-center gap-4 ">
+            <div data-aos="fade-up" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4 ">
               <h3 class="h3 mt-5 pt-5">Silver</h3>
             <h3 class="h3">$0.00 <span class="fs-5 text-secon">/hour</span></h3>
             <p class="text-secon w-75 text-center">For most businesses that want to optimize web queries</p>
@@ -577,7 +578,7 @@
             </div>
           </div>
           <div class="col-lg-4 ">
-            <div class="bg d-flex flex-column align-items-center mt-4 text-center gap-4">
+            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4">
               <h3 class="bg-my-primary w-100 py-2 fs-5">most popular</h3>
               <h3 class="h3 mt-4">Gold</h3>
             <h3 class="h3">$50.00 <span class="fs-5 text-secon">/hour</span></h3>
@@ -692,7 +693,7 @@
             </div>
           </div>
           <div class="col-lg-4 ">
-            <div class="bg d-flex flex-column align-items-center mt-4 text-center gap-4 ">
+            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4 ">
               <h3 class="h3 mt-5 pt-5">Diamond</h3>
             <h3 class="h3">$80.00 <span class="fs-5 text-secon">/hour</span></h3>
             <p class="text-secon w-75 text-center">For most businesses that want to optimize web queries</p>
@@ -806,24 +807,65 @@
             </div>
           </div>
         </div>
-      </div>
+      
     
         <div class="row mt-5">
-          <div class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
             <h2 class="h2 text-capitalize fw-bold">Recommendations</h2>
             <p class="text-center text-secon w-md-100 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4">
-            <div class="bg d-flex flex-column align-items-start">
+          <div class="col-lg-4 d-flex ">
+            <div data-aos="fade-up"  class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
               <img src="asstes/Rating.png" class="img-fluid">
-
+              <h3>Great Quality!</h3>
+              <p class="text-secon ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+              <div class="d-flex align-items-center justify-content-center gap-3 ">
+                <img src="asstes/Profile.png" class="img-fluid">
+                <div>
+                  <h3>James Gouse</h3>
+                  <p class="mb-0 text-secon">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ">
+            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
+              <img src="asstes/Rating.png" class="img-fluid">
+              <h3>Amazing work!</h3>
+              <p class="text-secon ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+              <div class="d-flex align-items-center justify-content-center gap-3 ">
+                <img src="asstes/Profile2.png" class="img-fluid">
+                <div>
+                  <h3>Tiana Philips</h3>
+                  <p class="mb-0 text-secon">Photographer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex ">
+            <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
+              <img src="asstes/Rating.png" class="img-fluid">
+              <h3>Great Quality!</h3>
+              <p class="text-secon ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....</p>
+              <div class="d-flex align-items-center justify-content-center gap-3 ">
+                <img src="asstes/Profile3.png" class="img-fluid">
+                <div>
+                  <h3>Talan Westervelt</h3>
+                  <p class="mb-0 text-secon">Business man</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
