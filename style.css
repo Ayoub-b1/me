@@ -19,6 +19,9 @@ header{
     height: 100vh;
     background-color: var(--white);
 }
+.yellow{
+    background-color: #FFB400;
+}
 .fw600{
     font-weight: 600 !important;
 }
@@ -31,7 +34,7 @@ header{
     color: var(--white)!important;
 }
 .bg-my-primary:hover{
-    background-color: #eaa402!important;
+    filter:brightness(.9);
 }
 
 .mlr{
@@ -57,6 +60,28 @@ header{
 }
 .bg-my-primary{
     background-color: var(--primary-color) !important;
+}
+.bg-my-secon{
+    background-color: var(--bg-) !important;
+}
+.thecolor{
+    width: 30px;
+    height: 30px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 1em;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 12px;
+}
+.green{
+    background-color: #65ff65;
+}
+.fs-7{
+    font-size: 12px;
 }
 .text-green{
     color: var(--green);
@@ -92,6 +117,12 @@ header{
 .w-200{
     width: 350px;
     
+}
+.my-card{
+    height: 400px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 .height-100{
     height: 100vh;
@@ -153,7 +184,9 @@ line-height: 123.6%;
     left: 70%;
     top: 30%;
 }
-
+.parent-of-apear:hover .apear-on-hover2{
+    display: flex;
+}
 
 .parent-of-apear:hover .apear-on-hover{
     display: block;    
@@ -163,6 +196,19 @@ line-height: 123.6%;
     font-size: 12px;
     position: absolute;
     bottom: 80%;
+    padding: 5px 10px;
+    background: var(--dark);
+    color: var(--white);
+    border-radius: 5px;
+}
+.cur-pointer{
+    cursor: pointer;
+}
+.apear-on-hover2{
+    display: none;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
     padding: 5px 10px;
     background: var(--dark);
     color: var(--white);
@@ -213,4 +259,16 @@ line-height: 123.6%;
 }
 .hover:hover{
     background: var(--bg-);
+}
+.blue{
+    background-color: #4166f5 ;
+}
+.add::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    opacity: .7;
+    
 }

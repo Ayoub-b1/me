@@ -1,7 +1,20 @@
 
 window.addEventListener('DOMContentLoaded',()=> {
-   
+    let porf = document.querySelectorAll('.porft');
+    porf.forEach((elem)=>{
+        let url = elem.getAttribute('data-img-bg');
+        elem.style.background = `url(${url})`;
+    })
+    let color = document.getElementById('color');
+    color.addEventListener('click',()=>{
 
+        let color_value = color.value;
+        color.style.background = color_value 
+        var root = document.documentElement;
+
+        // Change the value of the --main-color variable
+        root.style.setProperty('--primary-color', color_value);
+    })
 
 
     let progress = document.querySelectorAll('.myprog');
@@ -45,7 +58,7 @@ const sections = document.querySelectorAll('section');
 const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.3
+    threshold: 0
 };
 
 const observer = new IntersectionObserver((entries) => {

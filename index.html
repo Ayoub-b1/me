@@ -9,30 +9,25 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="position-relative">
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayoub</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body class="position-relative">
     <header class="position-fixed  end-0 ">
         <nav class="navbar navbar-expand-md h-100 align-items-center d-flex flex-column ">
             <ul class="navbar-nav flex-column align-items-center gap-5  h-100 ">
                 <li class="nav-item mb-150">
-                    <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                        <g clip-path="url(#clip0_2_6707)">
-                          <path d="M15.5 27C8.59625 27 3 21.4037 3 14.5C3 7.59625 8.59625 2 15.5 2C22.4037 2 28 7.59625 28 14.5C28 21.4037 22.4037 27 15.5 27ZM7.16125 20.0312C7.98286 21.2605 9.06683 22.2923 10.3351 23.0523C11.6034 23.8123 13.0245 24.2816 14.4959 24.4264C15.9674 24.5712 17.4526 24.3879 18.8448 23.8897C20.2369 23.3915 21.5012 22.5908 22.5466 21.5452C23.5921 20.4997 24.3927 19.2353 24.8908 17.8432C25.3888 16.451 25.572 14.9657 25.4271 13.4943C25.2822 12.0228 24.8127 10.6018 24.0526 9.3336C23.2925 8.06538 22.2606 6.98149 21.0312 6.16C21.5702 8.08278 21.5875 10.1144 21.0814 12.0461C20.5752 13.9778 19.5639 15.7398 18.1513 17.1513C16.74 18.5637 14.9781 19.5749 13.0467 20.081C11.1152 20.5872 9.08385 20.57 7.16125 20.0312Z" fill="#2B2B2B"/>
-                        </g>
-                        <defs>
-                          <clipPath id="clip0_2_6707">
-                            <rect width="30" height="30" fill="white"/>
-                          </clipPath>
-                        </defs>
-                      </svg>
+                    <div class=" cur-pointer">
+                      
+                      <select name="color" id="color" class="thecolor yellow
+                      ">
+                        <option value="#FFB400" class="thecolor yellow" selected> </option>
+                        <option value="#65ff65" class="thecolor green" ><div >
+                          
+                        </div></option>
+                        <option value="#4166f5  " class="thecolor blue"><div  >
+                          
+                        </div></option>
+                      </select>
+                    
+                      
+                    </div>
                 </li>
                 <li class="nav-item ">
                   <a href="#home"  class="nav-buttons position-relative parent-of-apear nav-link circles circles-active ">
@@ -65,7 +60,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                  <a href="#" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
+                  <a href="#education" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
                     <p class="apear-on-hover ">Education</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <g clip-path="url(#clip0_2_6662)">
@@ -79,7 +74,7 @@
                       </svg></a>
                 </li>
                 <li class="nav-item ">
-                  <a href="#" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
+                  <a href="#work" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
                     <p class="apear-on-hover ">Work</p>
                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <g clip-path="url(#clip0_2_6646)">
@@ -92,7 +87,7 @@
                         </defs>
                       </svg></a>
                 </li>
-                <li class="nav-item "><a href="#" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
+                <li class="nav-item "><a href="#portfolio" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
                   <p class="apear-on-hover ">Portfolio</p>
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <g clip-path="url(#clip0_2_6624)">
@@ -105,7 +100,7 @@
                     </defs>
                   </svg></a></li>
                 <li class="nav-item ">
-                   <a href="#" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
+                   <a href="#contact" class="nav-buttons position-relative nav-link circles parent-of-apear"> 
                   <p class="apear-on-hover ">Contact</p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <g clip-path="url(#clip0_2_6602)">
                       <path d="M4.84125 14.25L1.5 16.875V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V13.5C16.5 13.6989 16.421 13.8897 16.2803 14.0303C16.1397 14.171 15.9489 14.25 15.75 14.25H4.84125Z" fill="#767676"/>
@@ -287,7 +282,7 @@
                       </div>
                     </div>
                     <hr class="border border-secondary my-3  w-100 ">
-                    <a href="#" download="" class="btn-my-primary w-100 bg-my-primary text-decoration-none text-my-dark  d-flex justify-content-center align-items-center gap-5 py-2 text-uppercase fw600 ">Download cv <svg xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
+                    <a href="" download="" class="btn-my-primary w-100 bg-my-primary text-decoration-none text-my-dark  d-flex justify-content-center align-items-center gap-5 py-2 text-uppercase fw600 ">Download cv <svg xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
                       <g clip-path="url(#clip0_2_6732)">
                         <path d="M2.33317 12.9523H11.6665V8.28564H12.8332V13.619C12.8332 13.7958 12.7717 13.9654 12.6623 14.0904C12.5529 14.2154 12.4045 14.2856 12.2498 14.2856H1.74984C1.59513 14.2856 1.44675 14.2154 1.33736 14.0904C1.22796 13.9654 1.1665 13.7958 1.1665 13.619V8.28564H2.33317V12.9523ZM8.1665 6.28564H11.0832L6.99984 10.9523L2.9165 6.28564H5.83317V2.28564H8.1665V6.28564Z" fill="#2B2B2B"/>
                       </g>
@@ -343,7 +338,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68" fill="none">
                 <path d="M63.2188 7.4375H4.78125C3.79531 7.43859 2.85007 7.83074 2.1529 8.5279C1.45574 9.22507 1.06359 10.1703 1.0625 11.1562V48.3438C1.06359 49.3297 1.45574 50.2749 2.1529 50.9721C2.85007 51.6693 3.79531 52.0614 4.78125 52.0625H26.0552L24.7802 55.25H19.125C18.8432 55.25 18.573 55.3619 18.3737 55.5612C18.1744 55.7605 18.0625 56.0307 18.0625 56.3125V58.4375H11.6875C11.4057 58.4375 11.1355 58.5494 10.9362 58.7487C10.7369 58.948 10.625 59.2182 10.625 59.5C10.625 59.7818 10.7369 60.052 10.9362 60.2513C11.1355 60.4506 11.4057 60.5625 11.6875 60.5625H56.3125C56.5943 60.5625 56.8645 60.4506 57.0638 60.2513C57.2631 60.052 57.375 59.7818 57.375 59.5C57.375 59.2182 57.2631 58.948 57.0638 58.7487C56.8645 58.5494 56.5943 58.4375 56.3125 58.4375H49.9375V56.3125C49.9375 56.0307 49.8256 55.7605 49.6263 55.5612C49.427 55.3619 49.1568 55.25 48.875 55.25H43.2198L41.9448 52.0625H63.2188C64.2047 52.0614 65.1499 51.6693 65.8471 50.9721C66.5443 50.2749 66.9364 49.3297 66.9375 48.3438V11.1562C66.9364 10.1703 66.5443 9.22507 65.8471 8.5279C65.1499 7.83074 64.2047 7.43859 63.2188 7.4375ZM47.8125 57.375V58.4375H20.1875V57.375H47.8125ZM27.0698 55.25L28.3448 52.0625H39.6552L40.9302 55.25H27.0698ZM64.8125 48.3438C64.8121 48.7663 64.6441 49.1715 64.3453 49.4703C64.0465 49.7691 63.6413 49.9371 63.2188 49.9375H4.78125C4.35867 49.9371 3.9535 49.7691 3.65469 49.4703C3.35588 49.1715 3.18785 48.7663 3.1875 48.3438V45.6875H64.8125V48.3438ZM64.8125 43.5625H3.1875V11.1562C3.18785 10.7337 3.35588 10.3285 3.65469 10.0297C3.9535 9.73088 4.35867 9.56285 4.78125 9.5625H63.2188C63.6413 9.56285 64.0465 9.73088 64.3453 10.0297C64.6441 10.3285 64.8121 10.7337 64.8125 11.1562V43.5625Z" fill="#FFB400"/>
@@ -355,7 +350,7 @@
               <p class="text-secon text-capitalize">Blog, E-commerce...</p>
             </div>
           </div>
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68" fill="none">
                 <g clip-path="url(#clip0_2_6449)">
@@ -377,7 +372,7 @@
               <p class="text-secon text-capitalize">Mobile app, website design</p>
             </div>
           </div>
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg class="my-2" xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74" fill="none">
                 <g clip-path="url(#clip0_2_6360)">
@@ -396,7 +391,7 @@
           </div>
         </div>
         <div class="row mt-3">
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74" fill="none">
                 <path d="M32.375 38.1562H41.625V40.4688H32.375V38.1562Z" fill="#FFB400"/>
@@ -428,14 +423,14 @@
               <p class="text-secon text-capitalize">Character Design, Props & Objects</p>
             </div>
           </div>
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center justify-content-center py-5 gap-3 text-center">
               <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" x="0" y="0" viewBox="0 0 74 74" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M27.578 7.748h5.083a1 1 0 0 0 0-2h-5.083a1 1 0 0 0 0 2zM23.045 61.584h9.066a1 1 0 0 0 0-2h-9.066a1 1 0 0 0 0 2z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="M10.155 51.634a1 1 0 0 0 1-1V11.5H44v5.144a1 1 0 0 0 2 0l.004-10.664c0-2.19-1.79-3.98-3.987-3.98H13.135c-2.09 0-3.98 1.72-3.98 3.983v44.651a1 1 0 0 0 1 1zM42.015 4c1.057 0 1.986.865 1.986 1.983V9.5H11.155V5.98c0-1.09.894-1.98 1.983-1.98z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="M33.749 27.196a1 1 0 0 0 1.414-.007l4.18-4.218a1 1 0 0 0 0-1.407l-4.18-4.218a1 1 0 0 0-1.42 1.407l3.481 3.515-3.482 3.514a1 1 0 0 0 .007 1.414zM21.406 17.339a.998.998 0 0 0-1.414.007l-4.179 4.218a1 1 0 0 0 0 1.407l4.18 4.218a1 1 0 1 0 1.42-1.407l-3.481-3.514 3.481-3.515a1 1 0 0 0-.007-1.414zM29.19 14.513l-5.87 14.77a1 1 0 1 0 1.859.739l5.87-14.77a1 1 0 1 0-1.86-.739zM45.005 33.04c-2.93 0-5.31 2.38-5.31 5.31 0 2.958 2.412 5.31 5.31 5.31 2.886 0 5.3-2.348 5.3-5.31 0-2.93-2.38-5.31-5.3-5.31zm1 8.46v-3.81c0-.55-.45-1-1-1-.56 0-1 .45-1 1v3.82a3.314 3.314 0 0 1 1-6.47c1.82 0 3.3 1.49 3.3 3.31 0 1.48-.97 2.73-2.3 3.15z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path><path d="m57.955 35.19-2.46-.28c-.19-.58-.43-1.15-.72-1.7l1.44-2.04c.29-.39.24-.94-.1-1.28l-2.87-2.86a.996.996 0 0 0-1.33-.08l-1.93 1.55c-.55-.28-1.12-.51-1.71-.69l-.41-2.47a1 1 0 0 0-.99-.83h-4.05c-.51 0-.94.38-1 .89l-.27 2.47c-.59.19-1.15.43-1.69.71l-2.05-1.45a.988.988 0 0 0-1.28.11l-2.86 2.86c-.36.36-.39.93-.07 1.33l1.54 1.94c-.28.55-.51 1.12-.69 1.71l-2.46.41c-.48.09-.84.5-.84.99v4.05c0 .51.39.93.89.99l2.46.28c.19.59.44 1.16.72 1.7l-1.44 2.03c-.28.4-.24.94.11 1.29l2.86 2.86c.36.36.93.39 1.33.07l1.94-1.54c.55.27 1.11.5 1.7.68l.41 2.47a1 1 0 0 0 .99.84h.88v2.21h-33.85c-.55 0-1 .45-1 1v6.61a3.99 3.99 0 0 0 3.98 3.98h28.88c2.2 0 3.99-1.79 3.99-3.98V52.2h1.17c.51 0 .94-.38 1-.89l.28-2.47a11.4 11.4 0 0 0 1.69-.71l2.04 1.45c.4.28.94.23 1.29-.11l2.85-2.87c.36-.36.39-.93.07-1.32l-1.54-1.94c.28-.56.51-1.13.69-1.71l2.46-.42c.48-.08.84-.5.84-.98v-4.05c0-.51-.38-.94-.89-.99zm-13.95 26.83c0 1.09-.89 1.98-1.99 1.98h-28.88c-1.09 0-1.98-.89-1.98-1.98v-5.61h32.85v5.61zm12.84-22.64-2.26.38c-.4.07-.71.36-.81.76-.2.84-.53 1.65-.97 2.42-.21.35-.18.8.08 1.12l1.39 1.76-1.62 1.64-1.88-1.34a1 1 0 0 0-1.1-.03c-.73.45-1.53.79-2.38 1-.41.1-.71.45-.76.86l-.25 2.25h-2.32l-.38-2.27a.982.982 0 0 0-.75-.8c-.84-.21-1.65-.54-2.4-.98a.995.995 0 0 0-1.13.08l-1.77 1.4-1.63-1.63 1.32-1.85c.213-.301.25-.746.04-1.12-.45-.73-.8-1.54-1.02-2.4a.98.98 0 0 0-.85-.74l-2.24-.26v-2.3l2.26-.38c.4-.07.72-.37.81-.76.2-.85.53-1.66.98-2.4.21-.36.19-.81-.07-1.14l-1.41-1.77 1.63-1.63 1.87 1.33a1 1 0 0 0 1.1.04c.73-.45 1.54-.79 2.4-1.01.4-.1.69-.44.74-.85l.25-2.25h2.32l.38 2.26c.07.4.36.72.75.81.85.2 1.66.53 2.41.98.36.21.81.18 1.13-.08l1.76-1.41 1.63 1.64-1.32 1.86c-.21.297-.253.731-.04 1.11.46.75.8 1.56 1.01 2.39.1.4.44.7.86.75l2.24.25v2.31z" fill="#ffb400" opacity="1" data-original="#000000" class=""></path></g></svg>
               <h3 class="fw-bold text-capitalize">Mobile dev</h3>
               <p class="text-secon text-capitalize">simple mobile applications</p>
             </div>
           </div>
-          <div class="col-lg-4 mt-md-3">
+          <div class="col-xl-4 mt-md-3">
             <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" class="bg shadow myorder d-flex flex-column text-center align-items-center justify-content-center py-5 h-100 gap-3">
               <a href="#contact" class=" text-decoration-none text-my-primary text-uppercase fs-2 ">Order Now
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20 20" fill="none">
@@ -454,7 +449,7 @@
         </div>
       </div>
     </section>
-    <section class="mlr" id="price">
+    <section data-aos="fade-in" class="mlr" id="price">
       <div class="container">
         <div class="row mt-5">
           <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
@@ -463,7 +458,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4 ">
+          <div class="col-xl-4 ">
             <div data-aos="fade-up" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4 ">
               <h3 class="h3 mt-5 pt-5">Silver</h3>
             <h3 class="h3">$0.00 <span class="fs-5 text-secon">/hour</span></h3>
@@ -577,7 +572,7 @@
             <a href="#" class="shadow br50 text-my-dark text-decoration-none fw-bolder px-5 py-2 hover mb-5" >ORDER NOW</a>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-xl-4 ">
             <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4">
               <h3 class="bg-my-primary w-100 py-2 fs-5">most popular</h3>
               <h3 class="h3 mt-4">Gold</h3>
@@ -692,7 +687,7 @@
             <a href="#" class="shadow br50 bg-my-primary text-my-dark text-decoration-none fw-bolder px-5 py-2 hover mb-5" >ORDER NOW</a>
             </div>
           </div>
-          <div class="col-lg-4 ">
+          <div class="col-xl-4 ">
             <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-center mt-4 text-center gap-4 ">
               <h3 class="h3 mt-5 pt-5">Diamond</h3>
             <h3 class="h3">$80.00 <span class="fs-5 text-secon">/hour</span></h3>
@@ -816,7 +811,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4 d-flex ">
+          <div class="col-xl-4  mt-4 d-flex ">
             <div data-aos="fade-up"  class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
               <img src="asstes/Rating.png" class="img-fluid">
               <h3>Great Quality!</h3>
@@ -830,7 +825,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 d-flex ">
+          <div class="col-xl-4 mt-4  d-flex ">
             <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
               <img src="asstes/Rating.png" class="img-fluid">
               <h3>Amazing work!</h3>
@@ -844,7 +839,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 d-flex ">
+          <div class="col-xl-4 mt-4  d-flex ">
             <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="bg shadow d-flex flex-column align-items-start px-4  py-5 gap-3">
               <img src="asstes/Rating.png" class="img-fluid">
               <h3>Great Quality!</h3>
@@ -861,6 +856,406 @@
         </div>
       </div>
     </section>
+    <section data-aos="fade-in" class="mlr" id="education">
+      <div class="container">
+        <div class="row mt-5">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="h2 text-capitalize fw-bold">Education</h2>
+            <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">University of Toronto</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+              <hr class="m-0 mx-4">
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">Programming Course</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+              <hr class="m-0 mx-4">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">Web developer courses</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-in" class="mlr" id="work">
+      <div class="container">
+        <div class="row mt-5">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="h2 text-capitalize fw-bold">Work History</h2>
+            <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">Lead Web Designer</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+              <hr class="m-0 mx-4">
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">Junior Web Designer</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+              <hr class="m-0 mx-4">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="bg ">
+              <div class="row text-center text-xl-start justify-content-between">
+                <div class="col-xl-4 py-5  d-flex flex-column gap-5 ps-5">
+                  <h3 class="fs-5">Senior Web Designer</h3>
+                  <div class="d-flex justify-content-between flex-column flex-xl-row  align-items-center">
+                    <p class="text-my-dark   fw-medium mb-0">Student</p>
+                    <p class="bg-my-primary ms-3 mb-2 text-white px-1 py-1 fs-7">Jan 1016 - Dec 2021</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 py-5 d-flex flex-column gap-5 px-5">
+                  <h3>Certificate of web training</h3>
+                  <p class="text-secon mb-0 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-in" class="mlr" id="portfolio">
+      <div class="container">
+        <div class="row mt-5">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="h2 text-capitalize fw-bold">Portfolio</h2>
+            <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-8 mx-auto">
+            <ul class="list-unstyled d-flex flex-column text-center gap-4 flex-xl-row justify-content-between fs-5 fw-semibold">
+              <li><a href="#" class="text-decoration-none text-my-dark">All categories</a></li>
+              <li><a href="#" class="text-decoration-none text-my-dark">UI Design</a></li>
+              <li><a href="#" class="text-decoration-none text-my-dark">Web Templates</a></li>
+              <li><a href="#" class="text-decoration-none text-my-dark">Logo</a></li>
+              <li><a href="#" class="text-decoration-none text-my-dark">Branding</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div data-aos="zoom-in"  class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1200" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image2.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image3.png">
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1500" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image4.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image5.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image6.png">
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image7.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image8.png">
+              <a href="#"></a>
+            </div>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" class="col-xl-4">
+            <div class="shadow my-card porft myorder mt-4 "  data-img-bg="asstes/portf/Image9.png">
+              <a href="#"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400" class="col-12 mt-5 d-flex flex-column align-items-center justify-content-center">
+            <h2 class="h2 text-capitalize fw-bold">Blog</h2>
+            <p class="text-center text-secon w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-xl-4">
+            <div class="bg d-flex flex-column gap-3">
+              <div class="my-card porft"  data-img-bg="asstes/portf/Image1.png" ></div>
+              <div class="px-4 d-flex flex-column gap-4">
+                <h4>How to make web tempates</h4>
+              <p class="text-secon m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+              <a href="#" class="text-my-primary text-decoration-none ">Learn more<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <g clip-path="url(#clip0_2_934)">
+                  <path d="M10.1431 10L7.78564 7.64334L8.96398 6.46417L12.4998 10L8.96398 13.5358L7.78564 12.3567L10.1431 10Z" fill="#FFB400"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_934">
+                    <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="bg d-flex flex-column gap-3">
+              <div class="my-card porft"  data-img-bg="asstes/portf/Image2.png" ></div>
+              <div class="px-4 d-flex flex-column gap-4">
+                <h4>make Business card</h4>
+              <p class="text-secon m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+              <a href="#" class="text-my-primary text-decoration-none ">Learn more<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <g clip-path="url(#clip0_2_934)">
+                  <path d="M10.1431 10L7.78564 7.64334L8.96398 6.46417L12.4998 10L8.96398 13.5358L7.78564 12.3567L10.1431 10Z" fill="#FFB400"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_934">
+                    <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="bg d-flex flex-column gap-3">
+              <div class="my-card porft"  data-img-bg="asstes/portf/Image3.png" ></div>
+              <div class="px-4 d-flex flex-column gap-4">
+                <h4>How to make Flyer Design</h4>
+              <p class="text-secon m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+              <a href="#" class="text-my-primary text-decoration-none ">Learn more<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <g clip-path="url(#clip0_2_934)">
+                  <path d="M10.1431 10L7.78564 7.64334L8.96398 6.46417L12.4998 10L8.96398 13.5358L7.78564 12.3567L10.1431 10Z" fill="#FFB400"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_934">
+                    <rect width="20" height="20" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-in" class="mlr" id="contact">
+      <div class="container">
+        <div class="row mt-5">
+        <div class="col-xl-7 mt-5">
+          <h4 class="fs-1 mb-5  ">Leave us your info</h4>
+          <div class="bg mt-3">
+            <form action="" method="post" class="px-3 flex-column d-flex gap-3 py-4">
+              <div class="w-100 d-flex flex-column gap-4 ">
+                <label for="name" class="w-100 text-secon">Your Full Name ( Required)</label>
+                <input type="text" id="name" name="name" class="form-control bg-my-secon border-0 py-2">
+              </div>
+              <div class="w-100 d-flex flex-column gap-4 ">
+                <label for="email" class="w-100 text-secon">Your Email ( Required)</label>
+                <input type="email" id="email" name="email" class="form-control bg-my-secon border-0 py-2">
+              </div>
+              <div class="w-100 d-flex flex-column gap-4 ">
+                <label for="Subject" class="w-100 text-secon">Subject</label>
+                <input type="text" id="Subject" name="Subject" class="form-control bg-my-secon border-0 py-2">
+              </div>
+              <div class="w-100 d-flex flex-column gap-4 ">
+                <label for="Message" class="w-100 text-secon">Your Message</label>
+                <textarea  id="Message" name="Message" rows="10" class="form-control bg-my-secon border-0 py-2"></textarea>
+              </div>
+              <input type="submit" value="send message" class="bg-my-primary text-my-dark border-0 py-2 px-3 w-25">
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-5 mt-5 ">
+          <h4 class="fs-1 mb-5  ">Contact information</h4>
+          <div class="bg">
+            <div class=" d-flex flex-column align-items-center mx-5 gap-5 mb-3 pt-3">
+              <div class="circles circles-active"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <g clip-path="url(#clip0_2_2690)">
+                  <path d="M1.5 3.75L6.75 1.5L11.25 3.75L15.9772 1.72425C16.0343 1.69979 16.0966 1.68988 16.1584 1.69541C16.2202 1.70094 16.2797 1.72173 16.3316 1.75593C16.3834 1.79013 16.4259 1.83666 16.4553 1.89135C16.4847 1.94603 16.5001 2.00716 16.5 2.06925V14.25L11.25 16.5L6.75 14.25L2.02275 16.2758C1.96569 16.3002 1.90344 16.3101 1.8416 16.3046C1.77976 16.2991 1.72026 16.2783 1.66844 16.2441C1.61662 16.2099 1.5741 16.1633 1.54471 16.1087C1.51531 16.054 1.49994 15.9928 1.5 15.9307V3.75ZM11.25 14.823V5.382L11.2013 5.403L6.75 3.177V12.618L6.79875 12.597L11.25 14.823Z" fill="#2B2B2B"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_2690">
+                    <rect width="18" height="18" fill="white"/>
+                  </clipPath>
+                </defs>
+                </svg>
+              </div>
+              <div class="w-100">
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Country:</p>
+                  <p class="text-secon">Morroco</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">City:</p>
+                  <p class="text-secon">Kenitra</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Street:</p>
+                  <p class="text-secon">Saknia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg ">
+            <div class=" d-flex flex-column align-items-center mx-5 gap-5 mb-3 pt-3">
+              <div class="circles circles-active"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <g clip-path="url(#clip0_2_2710)">
+                  <path d="M2.25 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25ZM9.045 8.76225L4.236 4.6785L3.26475 5.8215L9.05475 10.7378L14.7405 5.81775L13.7595 4.683L9.04575 8.76225H9.045Z" fill="#2B2B2B"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_2710">
+                    <rect width="18" height="18" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              </div>
+              <div class="w-100">
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Email:</p>
+                  <p class="text-secon">ayoubboughfella@gmail.com</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Skype:</p>
+                  <p class="text-secon">@ayoub</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Telegram:</p>
+                  <p class="text-secon">@ayoub</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg">
+            <div class=" d-flex flex-column align-items-center mx-5 gap-5 pt-3">
+              <div class="circles circles-active"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                <g clip-path="url(#clip0_2_2700)">
+                  <path d="M4.5 1.5H13.5C13.6989 1.5 13.8897 1.57902 14.0303 1.71967C14.171 1.86032 14.25 2.05109 14.25 2.25V15.75C14.25 15.9489 14.171 16.1397 14.0303 16.2803C13.8897 16.421 13.6989 16.5 13.5 16.5H4.5C4.30109 16.5 4.11032 16.421 3.96967 16.2803C3.82902 16.1397 3.75 15.9489 3.75 15.75V2.25C3.75 2.05109 3.82902 1.86032 3.96967 1.71967C4.11032 1.57902 4.30109 1.5 4.5 1.5ZM9 12.75C8.80109 12.75 8.61032 12.829 8.46967 12.9697C8.32902 13.1103 8.25 13.3011 8.25 13.5C8.25 13.6989 8.32902 13.8897 8.46967 14.0303C8.61032 14.171 8.80109 14.25 9 14.25C9.19891 14.25 9.38968 14.171 9.53033 14.0303C9.67098 13.8897 9.75 13.6989 9.75 13.5C9.75 13.3011 9.67098 13.1103 9.53033 12.9697C9.38968 12.829 9.19891 12.75 9 12.75Z" fill="#2B2B2B"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2_2700">
+                    <rect width="18" height="18" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+              </div>
+              <div class="w-100">
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Support services:</p>
+                  <p class="text-secon">12345</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Office:</p>
+                  <p class="text-secon">+58 (021)356 587 235</p>
+                </div>
+                <div class="w-100 d-flex justify-content-between">
+                  <p class="mb-0 text-secon fw-bold">Personal:</p>
+                  <p class="text-secon">+58 (021)356 587 235</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52756.49290434755!2d-6.641579336999009!3d34.266890907453075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7575f8a6d8643%3A0xc7050653c05e128b!2sKenitra!5e0!3m2!1sen!2sma!4v1705016252844!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+    </section>
+
+    
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
